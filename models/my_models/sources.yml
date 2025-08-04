@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: idan_dbt
+    database: NBA_KAGGLE
+    schema: RAW  
+    tables:
+      - name: draft_history
+      - name: game
